@@ -1,7 +1,7 @@
 # DSOOP-Assignment
-      Assignment dealing with complex number,differnt operations on it and lastly linklist of complex numbers
+ Assignment dealing with complex number,differnt operations on it and lastly linklist of complex numbers
 
-                                                      STEPS TO FOLLOW
+                                                  STEPS TO FOLLOW
 
 1- Open the source file uploaded with the name "ubq.cpp" on any IDE (Visual Studio 2010 is Prefferable).
 
