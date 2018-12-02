@@ -1,16 +1,20 @@
 # DSOOP-Assignment
-# Assignment dealing with complex number,differnt operations on it and lastly linklist of complex numbers
+      Assignment dealing with complex number,differnt operations on it and lastly linklist of complex numbers
 
-*******************************************************STEPS TO FOLLOW********************************************************************
+                                                      STEPS TO FOLLOW
 
-1- open the source file uploaded with the name "ubq.cpp" on any IDE (Visual Studio 2010 is Prefferable).
+1- Open the source file uploaded with the name "ubq.cpp" on any IDE (Visual Studio 2010 is Prefferable).
+
 2- Then Bulid solution and debug it.
+
 3- Enter complex number's real and imaginary part one by one,thus three complex numbers would be entered.
+
 4- That's,it differnt operations on complex numbers and the linklist so created step by step would be visible on the black screen.
+
 5- At last press any key to successfully close the debugger.
 
 
-*******************************************************DISCRIPTION********************************************************************
+                                                        DISCRIPTION
 
 The program automatically will prompt the user to enter complex number's imageanry and real part one by one.Three complex numbers numbers would be added by the users.
 
