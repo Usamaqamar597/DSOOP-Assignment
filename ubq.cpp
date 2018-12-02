@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+// Creating complex numbers class
 class complex
 { 
  public:
@@ -18,6 +19,7 @@ class complex
 	{	    
 		cout<<"    ("<<a<<")+("<<b<<")i"<<endl;
 	}
+		// Using operator overloading for all four operations	
 		complex operator +(complex v)
 	{		
 		complex add;
@@ -35,6 +37,7 @@ class complex
 		complex operator *(complex v)
 	{		
 		complex mul;
+		//(a+bi)(c+di)=(ac-bd)+(bc+bd)i	
 		mul.a=(a*v.a)-(b*v.b);
 		mul.b=(a*v.b)+(b*v.b);
 		return mul;
@@ -44,7 +47,8 @@ try {	{
 			complex div;
            if (((v.a*v.a)+(v.b*v.b))==0)
 		      throw (4);
-	       else
+	       else			
+		       // (a+bi)/(c+di)=(ac+bd)-(ad-bc)i/(c*c-d*d)
 	  {			div.a=((a*v.a)+(b*v.b))/((v.a*v.a)+(v.b*v.b));
 				div.b=((b*v.a)-(a*v.b))/((v.a*v.a)+(v.b*v.b));
 				return div; 
